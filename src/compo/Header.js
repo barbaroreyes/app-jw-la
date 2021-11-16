@@ -10,18 +10,18 @@ justify-content:space-between;
 border:1px solid black;
 flex-direction:row;
 padding:20px;
-${mobile({
+${mobilex({
   background:'blue',
   justifyContent:'center',
   flexDirection:'column'
 })}
-${table({width:'100%'})}
+
 `
 
 const NavContainer = style.div`
 border:1px solid black;
 width:20%;
-${mobile({
+${mobilex({
  
   width:'100%'
 })}
