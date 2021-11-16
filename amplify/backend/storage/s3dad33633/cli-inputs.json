@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3dad33633",
+  "policyUUID": "dad33633",
+  "bucketName": "appjwla9e860a2252f947e3b518387ea762e7e6",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "appjwla",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authappjwla5f55bd1f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
