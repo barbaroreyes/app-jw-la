@@ -10,10 +10,14 @@ justify-content:space-between;
 border:1px solid black;
 flex-direction:row;
 padding:20px;
+background:grey;
 ${mobilex({
-  background:'blue',
   justifyContent:'center',
-  flexDirection:'column'
+  flexDirection:'column',
+  backgroundColor:'blue'
+})}
+${all({
+  backgroundColor:'green',
 })}
 
 `

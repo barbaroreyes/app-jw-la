@@ -5,7 +5,7 @@ import Header from './compo/Header';
 import Home from './pages/Home';
 import Prendas from './pages/Prendas';
 import style from 'styled-components';
-import {mobilex,mobile,table ,all} from './compo/Responsive';
+
 
 
 const Container = style.div`
