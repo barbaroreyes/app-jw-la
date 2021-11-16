@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import {Routes , Route} from 'react-router-dom'
 import './App.css';
+import Footer from './compo/Footer';
+import Header from './compo/Header';
+import Home from './pages/Home';
+import style from 'styled-components';
+import {mobilex,mobile,table ,all} from './compo/Responsive';
 
+
+const Container = style.div`
+width:100%
+
+// ${mobilex({width:'87%'})}
+`
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Header/>
+       <Routes>
+        <Route path='/'
+        element={<Home/>}
+        />
+      </Routes>
+       <Footer/>
     </div>
   );
 }

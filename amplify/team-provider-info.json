@@ -19,11 +19,11 @@
       "function": {
         "hOrder": {
           "deploymentBucketName": "amplify-appjwla-dev-113949-deployment",
-          "s3Key": "amplify-builds/hOrder-42735456384f67384a72-build.zip"
+          "s3Key": "amplify-builds/hOrder-51466f6a7470336a4944-build.zip"
         },
         "hPayment": {
           "deploymentBucketName": "amplify-appjwla-dev-113949-deployment",
-          "s3Key": "amplify-builds/hPayment-6735534f597072746359-build.zip"
+          "s3Key": "amplify-builds/hPayment-37704b6348666a393462-build.zip"
         }
       }
     }
