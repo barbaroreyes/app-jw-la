@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 const Container = style.div`
+
 display:flex;
 justify-content:space-between;
 border:1px solid black;
