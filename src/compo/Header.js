@@ -7,7 +7,6 @@ import {Link} from 'react-router-dom'
 const Container = style.div`
 display:flex;
 justify-content:space-between;
-border:1px solid black;
 
 width:100%;
 ${mobile({
@@ -27,7 +26,6 @@ width:40%;
 `
 
 const MovilContainer = style.div`
-border:1px solid black;
 width:100%;
 padding:10px;
 ${all({display: 'none'})}
@@ -36,7 +34,6 @@ ${table({width: '100%'})}
 const AllContainer = style.div`
 display:flex;
 justify-content:center;
-border:1px solid black;
 padding:30px;
 ${mobile({display: 'none'})}
 
@@ -45,7 +42,6 @@ ${mobile({display: 'none'})}
 
 `
 const LogoContainer = style.div`
-border:1px solid black;
 display:flex;
 justify-content:center;
 flex-direction:column;

@@ -11,7 +11,7 @@ import CheckOut from './pages/CheckOut';
 
 
 const Container = style.div`
-width:100%
+
 
 `
 function App() {
