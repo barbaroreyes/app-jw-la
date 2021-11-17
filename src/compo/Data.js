@@ -26,7 +26,7 @@
   {
     "createdAt": "2021-11-01T11:42:19.781Z",
     "id": "1",
-    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/aretes-aros-perlas.jpeg",
+    "image": "https://appjwla9e860a2252f947e3b518387ea762e7e6113949-dev.s3.amazonaws.com/public/images/Aro-c-perla.jpeg",
     "name": "Conjuntos",
     "price": 1.5,
     "updatedAt": "2021-11-01T11:42:19.781Z"
