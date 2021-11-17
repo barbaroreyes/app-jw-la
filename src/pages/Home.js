@@ -3,15 +3,31 @@ import style from 'styled-components'
 
 
 const Container = style.div`
+border:1px solid black;
+display:flex;
+justify-content:center;
+flex-direction:row;
+height:55vh;
+`
+const Item = style.div`
+border:1px solid black;
+width:25%;
+border-radius:20px 20px;
+margin:8px;
+display:flex;
+justify-content:center;
+align-items:center;
 
-border:1px solid black
-// padding:10px;
 `
 
 const Home = () => {
   return (
     <Container>
-      Home
+      <Item>1</Item>
+      <Item>1</Item>
+      <Item>1</Item>
+      <Item>1</Item>
+     
     </Container>
   )
 }
