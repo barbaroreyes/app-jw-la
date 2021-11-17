@@ -25,7 +25,7 @@ ${mobile({
   flexDirection:'column',
   justifyContent:'center',
   alignItems: 'center',
-  margin: '3px',
+  margin: '5px',
   padding: '2px',
   
  
@@ -33,7 +33,8 @@ ${mobile({
 })}
 `
 const Image = style.img`
-width:300px;
+width:90%;
+height:40vh;
 border-radius:5px 10px;
 ${mobile({
   width:'97%',
