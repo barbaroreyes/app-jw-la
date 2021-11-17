@@ -1,40 +1,43 @@
 import React from 'react'
 import style from 'styled-components'
 import {mobilex,mobile,all,table} from '../compo/Responsive'
-import Data from '../compo/Data'
 import data from '../compo/Data';
 
 const Container = style.div`
 display:flex;
+justify-content:center;
+flex-wrap:wrap;
 ${mobile({
   flexDirection: 'column',
 })}
 `
 const ItemContainer = style.div`
-
-width:44%;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
 padding:20px;
-margin:20px;
+margin:10px;
 text-align:center;
+width:25%;
 ${mobile({
-  width:'100%',
+  width:'95%',
   flexDirection:'column',
   justifyContent:'center',
   alignItems: 'center',
   margin: '3px',
-  padding: '0',
-  border:'1px solid black'
+  padding: '2px',
   
  
  
 })}
 `
 const Image = style.img`
-width:100%;
+width:300px;
 border-radius:5px 10px;
 ${mobile({
-  width:'50%',
-  height:'40vh',
+  width:'97%',
+  height:'48vh',
   
 })}
 `

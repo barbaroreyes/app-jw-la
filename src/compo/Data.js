@@ -10,16 +10,16 @@
   {
     "createdAt": "2021-11-01T11:53:18.658Z",
     "id": "8",
-    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/Pulsos.jpeg",
-    "name": "Pulsos",
+    "image": "https://appjwla9e860a2252f947e3b518387ea762e7e6113949-dev.s3.amazonaws.com/public/images/Anillos.jpeg",
+    "name": "Anillos",
     "price": 1.5,
     "updatedAt": "2021-11-01T11:53:18.658Z"
   },
   {
     "createdAt": "2021-11-01T11:44:12.730Z",
     "id": "9",
-    "image": "https://ecomercejew7b6e695de0ef4126badbc7db32fd927c112134-dev.s3.amazonaws.com/public/gargantilla-con-sol.jpeg",
-    "name": "Esclavas",
+    "image": "https://appjwla9e860a2252f947e3b518387ea762e7e6113949-dev.s3.amazonaws.com/public/images/Argollas1.jpeg",
+    "name": "Aretes",
     "price": 1.5,
     "updatedAt": "2021-11-01T11:44:12.730Z"
   },
