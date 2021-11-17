@@ -7,6 +7,7 @@ const Container = style.div`
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
+font-family: 'Poppins', sans-serif
 ${mobile({
   flexDirection: 'column',
 })}
