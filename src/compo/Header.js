@@ -5,58 +5,55 @@ import {Link} from 'react-router-dom'
 
 
 const Container = style.div`
-
 display:flex;
 justify-content:space-between;
 border:1px solid black;
-flex-direction:row;
-padding:20px;
-background:grey;
-${mobilex({
-  justifyContent:'center',
-  flexDirection:'column',
-  backgroundColor:'blue'
-})}
-${all({
-  backgroundColor:'green',
-})}
 
+width:100%;
+${mobile({
+  flexDirection: 'column',
+  background:'blue',
+})}
+${table({
+  background:'green'
+
+})}
 `
 
 const NavContainer = style.div`
-border:1px solid black;
-width:20%;
-${mobilex({
+width:40%;
+ ${mobile({width: '93%'})}
  
-  width:'100%'
-})}
 `
 
 const MovilContainer = style.div`
-border:3px solid black;
+border:1px solid black;
 width:100%;
-display:flex;
-justify-content:center;
-
+padding:10px;
 ${all({display: 'none'})}
+${table({width: '100%'})}
 `
 const AllContainer = style.div`
-
+display:flex;
+justify-content:center;
 border:1px solid black;
-// width:20%;
+padding:30px;
 ${mobile({display: 'none'})}
-${mobilex({display: 'none'})}
+
 
 
 
 `
 const LogoContainer = style.div`
 border:1px solid black;
-${mobile({
-  textAlign: 'center',
-  marginBottom:'10px'
-})}
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+padding:30px;
+
 `
+
 
 const Header = () => {
   return (
@@ -66,14 +63,14 @@ const Header = () => {
       </LogoContainer>
      <NavContainer>
        <AllContainer>
-         <Link to='/'>Home</Link>
-         <Link to='/prendas'>Prendas</Link>
-         <Link to='/cart'>Cart</Link>
-         <Link to='/checkout'>CheckOut</Link>
-         <Link to='/about'>About</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}} to='/'>Home</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/prendas'>Prendas</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/cart'>Cart</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}} to='/checkout'>CheckOut</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/about'>About</Link>
        </AllContainer>
        <MovilContainer>
-         item
+         SandWisch
        </MovilContainer>
      </NavContainer>
     </Container>

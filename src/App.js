@@ -4,7 +4,9 @@ import Footer from './compo/Footer';
 import Header from './compo/Header';
 import Home from './pages/Home';
 import Prendas from './pages/Prendas';
+import Cart from './pages/Cart'
 import style from 'styled-components';
+import CheckOut from './pages/CheckOut';
 
 
 
@@ -22,6 +24,12 @@ function App() {
         />
          <Route path='/prendas'
         element={<Prendas/>}
+        />
+         <Route path='/cart'
+        element={<Cart/>}
+        />
+          <Route path='/checkout'
+        element={<CheckOut/>}
         />
       </Routes>
        <Footer/>
