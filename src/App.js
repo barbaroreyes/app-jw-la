@@ -2,11 +2,12 @@ import {Routes , Route} from 'react-router-dom'
 import './App.css';
 import Footer from './compo/Footer';
 import Header from './compo/Header';
-import Home from './pages/Home';
+import Categorias from './pages/Categorias';
 import Prendas from './pages/Prendas';
 import Cart from './pages/Cart'
 import style from 'styled-components';
 import CheckOut from './pages/CheckOut';
+import Home from './pages/Home';
 
 
 
@@ -19,8 +20,11 @@ function App() {
     <Container>
        <Header/>
        <Routes>
-        <Route path='/'
+       <Route path='/'
         element={<Home/>}
+        />
+        <Route path='/categorias'
+        element={<Categorias/>}
         />
          <Route path='/prendas'
         element={<Prendas/>}

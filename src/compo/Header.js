@@ -60,7 +60,7 @@ const Header = () => {
      <NavContainer>
        <AllContainer>
          <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}} to='/'>Home</Link>
-         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/prendas'>Prendas</Link>
+         <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/categorias'>Categorias</Link>
          <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/cart'>Cart</Link>
          <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}} to='/checkout'>CheckOut</Link>
          <Link style={{textDecoration: 'none',color: 'red',margin:'10px'}}  to='/about'>About</Link>
