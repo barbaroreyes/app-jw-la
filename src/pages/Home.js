@@ -1,6 +1,6 @@
 import React from 'react'
 import style from 'styled-components'
-import {mobilex,mobile,all,table} from '../compo/Responsive'
+import {mobile} from '../compo/Responsive'
 import data from '../compo/Data';
 
 const Container = style.div`
