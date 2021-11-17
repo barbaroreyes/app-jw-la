@@ -37,7 +37,7 @@ width:90%;
 height:40vh;
 border-radius:5px 10px;
 ${mobile({
-  width:'97%',
+  width:'88%',
   height:'48vh',
   
 })}
