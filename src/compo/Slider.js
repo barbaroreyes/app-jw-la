@@ -3,12 +3,11 @@ import styled from 'styled-components';
 import {ArrowLeftOutlined,ArrowRightOutlined} from '@material-ui/icons';
 import { useState } from 'react';
 import Data from './Data'
-
+import {mobile} from './Responsive'
 const Container = styled.div`
 width: 100%; 
 height:100vh;
 display:flex;
-// background-color: salmon;
 position:relative;
 overflow:hidden;
 
@@ -44,7 +43,7 @@ transform: translateX(${props => props.slideIndex * -100}vw);
 `
 const Slide = styled.div`
 width: 100vw;
-higthL100vh;
+higth:100vh;
 display:flex;
 align-items: center;
 align-items: center;
@@ -54,9 +53,11 @@ background-color:${props => props.bg};
 const ImageContainer = styled.div`
 flex:1;
 height:100%;
+${mobile({width:'100%'})}
 `
 const Image = styled.img`
-height:50%;
+height:20%;
+${mobile({width:'100%'})}
 `
 const InfoConten = styled.div`
 flex:1;
