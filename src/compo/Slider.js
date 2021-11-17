@@ -10,7 +10,7 @@ height:100vh;
 display:flex;
 position:relative;
 overflow:hidden;
-
+${mobile({width:360,height:350})}
 
 `;
 
@@ -40,6 +40,7 @@ justify-content: center;
 align-items: center;
 transition: all 2s ease;
 transform: translateX(${props => props.slideIndex * -100}vw);
+${mobile({width:100,hight:100})}
 `
 const Slide = styled.div`
 width: 100vw;
@@ -48,16 +49,16 @@ display:flex;
 align-items: center;
 align-items: center;
 background-color:${props => props.bg};
-
+${mobile({width:'100%',hight:'20vh'})}
 `
 const ImageContainer = styled.div`
 flex:1;
 height:100%;
-${mobile({width:'100%'})}
+${mobile({width:'100%',hight:'10vh'})}
 `
 const Image = styled.img`
 height:20%;
-${mobile({width:'100%'})}
+
 `
 const InfoConten = styled.div`
 flex:1;
